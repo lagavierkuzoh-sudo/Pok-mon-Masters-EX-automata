@@ -1,0 +1,651 @@
+{
+  "schema": 2,
+  "gameVersion": "2.73.0",
+  "updated": "2026-10-08",
+  "pairs": [
+    {
+      "id": "ash_pikachu",
+      "trainer": "Ash",
+      "pokemon": "Pikachu",
+      "role": "STRIKE_SPECIAL",
+      "exRole": "NONE",
+      "type": "Electric",
+      "stats140": [
+        719,
+        288,
+        155,
+        487,
+        155,
+        271
+      ],
+      "stats140Max": [
+        819,
+        328,
+        195,
+        527,
+        195,
+        311
+      ],
+      "passives": [
+        "MASTER_KANTO_SPECIAL",
+        "ASH_THUNDER_COST_MINUS1",
+        "ASH_THUNDER_SURE_HIT",
+        "DOUBLE_ENDURE",
+        "PINCH_SPEC_NEXT2"
+      ],
+      "moves": [
+        {
+          "id": "ash_thunder",
+          "name": "Thunder",
+          "kind": "MOVE",
+          "slot": 1,
+          "type": "Electric",
+          "category": "SPECIAL",
+          "gauge": 1,
+          "uses": -1,
+          "power1": 161,
+          "power5": 192,
+          "target": "ENEMY",
+          "tags": [
+            "DAMAGE",
+            "PARALYZE"
+          ]
+        },
+        {
+          "id": "ash_not_gonna_lose",
+          "name": "Not Gonna Lose!",
+          "kind": "MOVE",
+          "slot": 2,
+          "type": "None",
+          "category": "STATUS",
+          "gauge": 0,
+          "uses": 1,
+          "power1": 0,
+          "power5": 0,
+          "target": "SELF",
+          "tags": [
+            "HEAL_SELF_20",
+            "GAUGE_PLUS_6",
+            "GRADUAL_HEAL",
+            "SUPER_EFFECTIVE_NEXT",
+            "DAMAGE_GUARD_NEXT"
+          ]
+        },
+        {
+          "id": "ash_buddy_thunderbolt",
+          "name": "Best Buddies Thunderbolt",
+          "kind": "MOVE",
+          "slot": 3,
+          "type": "Electric",
+          "category": "SPECIAL",
+          "gauge": 0,
+          "uses": 1,
+          "power1": 400,
+          "power5": 480,
+          "target": "ENEMY",
+          "tags": [
+            "DAMAGE",
+            "ASH_BUDDY",
+            "GAUGE_POWER",
+            "SURE_HIT"
+          ]
+        },
+        {
+          "id": "ash_going_all_out",
+          "name": "Going All Out!",
+          "kind": "MOVE",
+          "slot": 4,
+          "type": "None",
+          "category": "STATUS",
+          "gauge": 0,
+          "uses": 1,
+          "power1": 0,
+          "power5": 0,
+          "target": "SELF",
+          "tags": [
+            "BUFF_SPATK_4_6",
+            "BUFF_CRIT_3",
+            "BUFF_SPEED_IF_HP50"
+          ]
+        }
+      ],
+      "sync": {
+        "id": "ash_sync",
+        "name": "Best Buds 10,000,000 Volt Thunderbolt",
+        "kind": "SYNC",
+        "slot": 0,
+        "type": "Electric",
+        "category": "SPECIAL",
+        "gauge": 0,
+        "uses": -1,
+        "power1": 250,
+        "power5": 300,
+        "target": "ENEMY",
+        "tags": [
+          "DAMAGE",
+          "SYNC_ALWAYS_CRIT",
+          "SYNC_EX_AOE"
+        ]
+      },
+      "maxMoves": [],
+      "sourceNote": "Bulbapedia Ash (Masters), current page checked 2026-10-08. Effective Thunder gauge cost is modeled as 1 because Ash's Passion lowers its cost by one.",
+      "themes": [
+        "Electric",
+        "Kanto",
+        "Main Character"
+      ],
+      "stats200": [
+        923,
+        372,
+        203,
+        643,
+        203,
+        355
+      ],
+      "stats200Max": [
+        1023,
+        412,
+        243,
+        683,
+        243,
+        395
+      ]
+    },
+    {
+      "id": "ss_red_thunderbolt_pikachu",
+      "trainer": "Sygna Suit Red (Thunderbolt)",
+      "pokemon": "Pikachu",
+      "role": "TECH",
+      "exRole": "FIELD",
+      "type": "Electric",
+      "stats140": [
+        694,
+        336,
+        190,
+        336,
+        190,
+        402
+      ],
+      "stats140Max": [
+        854,
+        376,
+        250,
+        376,
+        250,
+        482
+      ],
+      "passives": [
+        "MASTER_KANTO",
+        "RED_ET_ACCEL_HEAL",
+        "CLUTCH_CRIT",
+        "MAX_CD3"
+      ],
+      "moves": [
+        {
+          "id": "ssred_thunder_shock",
+          "name": "Thunder Shock",
+          "kind": "MOVE",
+          "slot": 1,
+          "type": "Electric",
+          "category": "SPECIAL",
+          "gauge": 1,
+          "uses": -1,
+          "power1": 17,
+          "power5": 20,
+          "target": "ENEMY",
+          "tags": [
+            "DAMAGE",
+            "PARALYZE"
+          ]
+        },
+        {
+          "id": "ssred_electric_terrain",
+          "name": "Electric Terrain",
+          "kind": "MOVE",
+          "slot": 2,
+          "type": "Electric",
+          "category": "STATUS",
+          "gauge": 2,
+          "uses": 2,
+          "power1": 0,
+          "power5": 0,
+          "target": "FIELD",
+          "tags": [
+            "SET_ELECTRIC_TERRAIN"
+          ]
+        },
+        {
+          "id": "ssred_origin_volt_tackle",
+          "name": "Origin Volt Tackle",
+          "kind": "MOVE",
+          "slot": 3,
+          "type": "Electric",
+          "category": "PHYSICAL",
+          "gauge": 2,
+          "uses": -1,
+          "power1": 150,
+          "power5": 180,
+          "target": "ALL_ENEMIES",
+          "tags": [
+            "DAMAGE",
+            "REQUIRES_ELECTRIC_TERRAIN",
+            "PIERCING",
+            "DEBUFF_DEF_SPDEF_PARALYZED"
+          ]
+        },
+        {
+          "id": "ssred_spark_of_victory",
+          "name": "Spark of Victory!",
+          "kind": "MOVE",
+          "slot": 4,
+          "type": "None",
+          "category": "STATUS",
+          "gauge": 0,
+          "uses": 1,
+          "power1": 0,
+          "power5": 0,
+          "target": "ALL_ALLIES",
+          "tags": [
+            "BUFF_ATK_6",
+            "TEAM_GRADUAL_HEAL"
+          ]
+        }
+      ],
+      "sync": {
+        "id": "ssred_sync",
+        "name": "Lightning-Fast Volt Tackle",
+        "kind": "SYNC",
+        "slot": 0,
+        "type": "Electric",
+        "category": "PHYSICAL",
+        "gauge": 0,
+        "uses": -1,
+        "power1": 200,
+        "power5": 240,
+        "target": "ENEMY",
+        "tags": [
+          "DAMAGE",
+          "SYNC_TERRAIN_POWER",
+          "SYNC_EX_POWER_1_5",
+          "EXROLE_FIELD_ELECTRIC"
+        ]
+      },
+      "maxMoves": [
+        {
+          "id": "ssred_gmax_volt_crash",
+          "name": "G-Max Volt Crash",
+          "kind": "MAX",
+          "slot": 1,
+          "type": "Electric",
+          "category": "PHYSICAL",
+          "gauge": 0,
+          "uses": 1,
+          "power1": 400,
+          "power5": 480,
+          "target": "ENEMY",
+          "tags": [
+            "DAMAGE",
+            "PARALYZE_ALL",
+            "MAX_CD3"
+          ]
+        },
+        {
+          "id": "ssred_max_guard",
+          "name": "Max Guard",
+          "kind": "MAX",
+          "slot": 2,
+          "type": "Normal",
+          "category": "STATUS",
+          "gauge": 0,
+          "uses": 1,
+          "power1": 0,
+          "power5": 0,
+          "target": "ALLY",
+          "tags": [
+            "DAMAGE_GUARD_NEXT",
+            "MAX_CD3"
+          ]
+        }
+      ],
+      "sourceNote": "Bulbapedia Red (Masters), Sygna Suit Red (Thunderbolt) section; grid expanded 2026-05-25.",
+      "themes": [
+        "Electric",
+        "Kanto",
+        "Main Character"
+      ],
+      "stats200": [
+        886,
+        444,
+        250,
+        444,
+        250,
+        522
+      ],
+      "stats200Max": [
+        986,
+        484,
+        290,
+        484,
+        290,
+        562
+      ]
+    },
+    {
+      "id": "red_1996_pikachu",
+      "trainer": "Red (1996)",
+      "pokemon": "Pikachu",
+      "role": "TECH",
+      "exRole": "SUPPORT",
+      "type": "Electric",
+      "stats140": [
+        671,
+        312,
+        146,
+        336,
+        147,
+        335
+      ],
+      "stats140Max": [
+        831,
+        352,
+        226,
+        376,
+        227,
+        375
+      ],
+      "passives": [
+        "MASTER_KANTO_SPECIAL",
+        "ENTRY_SPATK6",
+        "CRIT_ALWAYS",
+        "RED1996_FIRST_SYNC",
+        "STATS_CANNOT_LOWER",
+        "CRIT_PROTECT"
+      ],
+      "moves": [
+        {
+          "id": "red1996_everlasting_thunderbolt",
+          "name": "Everlasting Thunderbolt",
+          "kind": "MOVE",
+          "slot": 1,
+          "type": "Electric",
+          "category": "SPECIAL",
+          "gauge": 2,
+          "uses": -1,
+          "power1": 250,
+          "power5": 300,
+          "target": "ENEMY",
+          "tags": [
+            "DAMAGE",
+            "RED1996_REQUIRES_SPATK",
+            "SURE_HIT",
+            "PARALYZE",
+            "FLINCH_30",
+            "SPEED_DOWN_2"
+          ]
+        },
+        {
+          "id": "red1996_silent_heal",
+          "name": "… … …!",
+          "kind": "MOVE",
+          "slot": 2,
+          "type": "None",
+          "category": "STATUS",
+          "gauge": 0,
+          "uses": 1,
+          "power1": 0,
+          "power5": 0,
+          "target": "SELF",
+          "tags": [
+            "FULL_HEAL_SELF",
+            "CURE_STATUS"
+          ]
+        },
+        {
+          "id": "red1996_original_thunder",
+          "name": "The Original Thunder",
+          "kind": "MOVE",
+          "slot": 3,
+          "type": "Electric",
+          "category": "SPECIAL",
+          "gauge": 2,
+          "uses": 1,
+          "power1": 500,
+          "power5": 600,
+          "target": "ENEMY",
+          "tags": [
+            "DAMAGE",
+            "RED1996_REQUIRES_SPATK",
+            "RED1996_ORIGINAL",
+            "SURE_HIT",
+            "DEBUFF_SPDEF_6",
+            "PARALYZE",
+            "SET_ELECTRIC_TERRAIN",
+            "SYNC_CD_MINUS_3"
+          ]
+        },
+        {
+          "id": "red1996_glorious_thunder",
+          "name": "Glorious Thunder",
+          "kind": "MOVE",
+          "slot": 3,
+          "type": "Electric",
+          "category": "SPECIAL",
+          "gauge": 2,
+          "uses": 1,
+          "power1": 1000,
+          "power5": 1200,
+          "target": "ENEMY",
+          "tags": [
+            "DAMAGE",
+            "RED1996_REQUIRES_SPATK",
+            "RED1996_GLORIOUS",
+            "SURE_HIT",
+            "PARALYZE"
+          ]
+        },
+        {
+          "id": "red1996_i_better_go",
+          "name": "I Better Go!",
+          "kind": "MOVE",
+          "slot": 4,
+          "type": "None",
+          "category": "STATUS",
+          "gauge": 0,
+          "uses": 1,
+          "power1": 0,
+          "power5": 0,
+          "target": "FIELD",
+          "tags": [
+            "SET_CIRCLES_3"
+          ]
+        }
+      ],
+      "sync": {
+        "id": "red1996_sync",
+        "name": "Grown Up So Much Thunderbolt",
+        "kind": "SYNC",
+        "slot": 0,
+        "type": "Electric",
+        "category": "SPECIAL",
+        "gauge": 0,
+        "uses": -1,
+        "power1": 200,
+        "power5": 240,
+        "target": "ENEMY",
+        "tags": [
+          "DAMAGE",
+          "SYNC_SPATK_POWER",
+          "SYNC_EX_POWER_1_5",
+          "EXROLE_SUPPORT_DOUBLE"
+        ]
+      },
+      "maxMoves": [],
+      "sourceNote": "Bulbapedia Red (Masters), Red (1996) & Pikachu section; debuted 2026-02-27.",
+      "themes": [
+        "Electric",
+        "Kanto",
+        "Main Character"
+      ],
+      "stats200": [
+        863,
+        408,
+        194,
+        444,
+        195,
+        443
+      ],
+      "stats200Max": [
+        963,
+        448,
+        234,
+        484,
+        235,
+        483
+      ]
+    },
+    {
+      "id": "ss_cynthia_aura_lucario",
+      "trainer": "Sygna Suit Cynthia (Aura)",
+      "pokemon": "Lucario",
+      "role": "SUPPORT",
+      "exRole": "SPRINT",
+      "type": "Fighting",
+      "stats140": [
+        689,
+        237,
+        307,
+        326,
+        307,
+        286
+      ],
+      "stats140Max": [
+        849,
+        297,
+        347,
+        386,
+        347,
+        366
+      ],
+      "passives": [
+        "SINNOH_FLAG",
+        "FIGHTING_ZONE_ENTRY_SYNC",
+        "TEAM_FIST_BUMP_3",
+        "INITIAL_GUARD"
+      ],
+      "moves": [
+        {
+          "id": "cynthia_vacuum_wave",
+          "name": "Vacuum Wave",
+          "kind": "MOVE",
+          "slot": 1,
+          "type": "Fighting",
+          "category": "SPECIAL",
+          "gauge": 1,
+          "uses": -1,
+          "power1": 20,
+          "power5": 24,
+          "target": "ENEMY",
+          "tags": [
+            "DAMAGE"
+          ]
+        },
+        {
+          "id": "cynthia_potion",
+          "name": "Potion",
+          "kind": "MOVE",
+          "slot": 2,
+          "type": "None",
+          "category": "STATUS",
+          "gauge": 0,
+          "uses": 2,
+          "power1": 0,
+          "power5": 0,
+          "target": "ALLY",
+          "tags": [
+            "HEAL_ALLY_40"
+          ]
+        },
+        {
+          "id": "cynthia_superior_aura_sphere",
+          "name": "Superior Aura Sphere",
+          "kind": "MOVE",
+          "slot": 3,
+          "type": "Fighting",
+          "category": "SPECIAL",
+          "gauge": 0,
+          "uses": 2,
+          "power1": 70,
+          "power5": 84,
+          "target": "ENEMY",
+          "tags": [
+            "DAMAGE",
+            "CYNTHIA_SUPERIOR",
+            "MOVE_GAUGE_ACCEL",
+            "TEAM_NEXT_2",
+            "SURE_HIT"
+          ]
+        },
+        {
+          "id": "cynthia_wont_end_here",
+          "name": "It Won't End Here!",
+          "kind": "MOVE",
+          "slot": 4,
+          "type": "None",
+          "category": "STATUS",
+          "gauge": 0,
+          "uses": 1,
+          "power1": 0,
+          "power5": 0,
+          "target": "ALL_ALLIES",
+          "tags": [
+            "TEAM_DEF_SPDEF_4_6"
+          ]
+        }
+      ],
+      "sync": {
+        "id": "cynthia_sync",
+        "name": "Learn by Battle Aura Sphere",
+        "kind": "SYNC",
+        "slot": 0,
+        "type": "Fighting",
+        "category": "SPECIAL",
+        "gauge": 0,
+        "uses": -1,
+        "power1": 160,
+        "power5": 192,
+        "target": "ENEMY",
+        "tags": [
+          "DAMAGE",
+          "MEGA",
+          "EXROLE_SPRINT_MINUS3",
+          "SET_FIGHTING_ZONE"
+        ]
+      },
+      "maxMoves": [],
+      "sourceNote": "Bulbapedia Sygna Suit Cynthia (Aura) & Lucario section; EX Role Sprint and expanded grid current through 2026.",
+      "themes": [
+        "Fighting",
+        "Sinnoh",
+        "Champion",
+        "Sygna Suit"
+      ],
+      "stats200": [
+        881,
+        309,
+        403,
+        434,
+        403,
+        370
+      ],
+      "stats200Max": [
+        981,
+        349,
+        451,
+        474,
+        451,
+        410
+      ]
+    }
+  ],
+  "plannerVersion": "2.1"
+}

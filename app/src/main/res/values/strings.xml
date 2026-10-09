@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Masters Strategist SELF</string>
+    <string name="accessibility_desc">Lets Masters Strategist SELF tap Pokémon Masters EX controls while the game is in the foreground. SELF mode learns from visual battle outcomes and can replay battles autonomously.</string>
+</resources>

@@ -1,0 +1,19 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.example.pomastersstrategist'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.example.pomastersstrategist'
+        minSdk 26
+        targetSdk 35
+        versionCode 22
+        versionName '2.2'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
